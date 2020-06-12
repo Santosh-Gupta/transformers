@@ -98,6 +98,7 @@ ACT2FN = {
     "relu": tf.keras.activations.relu,
     "swish": tf.keras.layers.Activation(swish),
     "gelu_new": tf.keras.layers.Activation(gelu_new),
+    "tanh": tf.keras.activations.tanh,
 }
 
 
